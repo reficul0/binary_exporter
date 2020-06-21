@@ -1,0 +1,11 @@
+<groups>
+	<group path="out/file.csv" updation_timeout_ms="500">
+		<signals>
+			<signal id="1" value_func="[1,3]" status_func="[0,255]"/>
+			<signal id="1" value_func="[1,1]" status_func="[1,1]"/>
+			<signal id="3" value_func="[0,1]" status_func="[0,254]"/>
+			<signal id="2" value_func="[0,255]" status_func="[1,3]"/>
+			<signal id="4" value_func="[1,3]" status_func="[1,2]"/>
+		</signals>
+	</group>
+</groups>
